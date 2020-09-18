@@ -4,7 +4,7 @@
 
 ### C'est quoi la Nightcode ?
 
-C'est une soirée de code organisée entre Iteracode et l'IUT Information d'Amiens.
+C'est une soirée de code organisée entre Iteracode et l'IUT Informatique d'Amiens.
 
 De 18h à 6h, des équipes d'étudiants tentent de relever les défis que nous leur proposons.
 
@@ -22,7 +22,7 @@ Mark Watney est donc seul sur la planète rouge et s'appuie sur le robot Pathfin
 
 Un détail du livre (qui n'apparaît pas dans le film), c'est que les messages de Pathfinder ne sont pas faits pour être transmis dans la nouvelle salle de commande. Les équipes de la NASA doivent donc réaliser une passerelle pour convertir les messages du robot et les transmettre à la salle de commande.
 
-Nous avions implémenté un "Pathfinder" qui envoyait régulièrement des messages aux serveurs des étudiants et nous avions un second serveur (nommé Phobos) qui attendu les messages convertis.
+Nous avions implémenté un "Pathfinder" qui envoyait régulièrement des messages aux serveurs des étudiants et nous avions un second serveur (nommé Phobos) qui attendait les messages convertis.
 
 ![Architecture](./nightcode-pathfinder.png)
 
@@ -164,7 +164,7 @@ Ici, en plus d'extraire les données, il fallait effectuer une conversion (galon
 
 Dans la version "raw", le corps de la requête était envoyé en plain/text et non plus en JSON.
 
-N.B. J'ai exclu un des types de données. Je m'étais trompé dans l'énoncé, il aurait fallu convertir les ["milli-pirates-ninjas"](LINK) en kilowatts et non en kilojoules.
+N.B. J'ai exclu un des types de données. Je m'étais trompé dans l'énoncé, il aurait fallu convertir les ["milli-pirates-ninjas"](https://en.wikipedia.org/wiki/List_of_humorous_units_of_measurement#Pirate-ninja) en kilowatts et non en kilojoules.
 
 ### Les images
 
